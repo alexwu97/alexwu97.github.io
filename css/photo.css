@@ -117,7 +117,7 @@
   }
 
   .enlarge-move:hover {
-    -webkit-transform: translate(50px);
-    transform: translate(50px);
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
