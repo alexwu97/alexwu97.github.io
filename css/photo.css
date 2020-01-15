@@ -1,3 +1,17 @@
+.enlarge {
+  transition: transform 0.25s ease;
+}
+
+.enlarge:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.enlarge-move:hover {
+  -webkit-transform: scale(1.2);
+  transform: translate(50px, 20px) scale(1.2);
+}
+
 #nba-pic,
 #recipe-pic {
   border-radius: 5px;
@@ -96,9 +110,14 @@
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 992px) {
   .modal-content {
     width: 100%;
     height: auto;
+  }
+
+  .enlarge-move:hover {
+    -webkit-transform: scale(1.2);
+    transform: translate(50px);
   }
 }
