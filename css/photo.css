@@ -12,6 +12,7 @@
   transform: translate(50px, 20px) scale(1.2);
 }
 
+#receipt-pic,
 #nba-pic,
 #recipe-pic,
 #movie-pic1,
@@ -21,6 +22,7 @@
   transition: 0.3s;
 }
 
+#receipt-pic:hover,
 #nba-pic:hover,
 #recipe-pic:hover,
 #movie-pic1:hover,
