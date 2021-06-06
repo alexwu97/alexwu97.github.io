@@ -111,8 +111,8 @@
           </h1>
           <div class="subheading mb-5">Vancouver, BC, Canada</div>
           <p class="mb-5">
-            Hey there! I'm an aspiring engineer excited about software
-            development! I have self-learned Java and React and done a few
+            Hey there! I'm an engineer excited about software
+            development! I have self-learned Go, Java, React, and more and have done a few
             personal projects. Feel free to learn more about me below.
           </p>
           <ul class="list-inline list-social-icons mb-0">
@@ -162,6 +162,52 @@
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
           <!--TODO: add your projects here-->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">
+                <i class="devicons devicons-go"></i>Distributed System
+              </h3>
+              <div class="subheading mb-3">
+                Personal Project - Application
+              </div>
+              <p>Tech Stack: Go</p>
+              <p>
+                A client server application aimed to allow multiple clients to connect to a 
+                distributed storage system and perform concurrent queries. All communication 
+                between client nodes, server node, and storage nodes are implemented using 
+                rpc. The system is designed to be fault tolerant, continuing to handle requests
+                when any storage node fails. The server can handle concurrent requests from 
+                clients using Go's goroutines, channels (Go's way of using threads and thread 
+                communication), and a concurrent queueing system prioritizing data consistency.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May - Jun 2021</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">
+                <i class="devicons devicons-java"></i>Yelp Data Store
+              </h3>
+              <div class="subheading mb-3">
+                Personal Project - Application
+              </div>
+              <p>Tech Stack: Java</p>
+              <p>
+                A client server application that stores a Yelp dataset in-memory. 
+                This project deep dives into establishing the server for multi client 
+                connection by setting up sockets and multi-threading. The goal of this 
+                project is to focus on concurrent querying and maintaining data 
+                consistency. In addition, a supervised statistical learning is 
+                implemented to allow prediction of user's rating for restaurants.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Apr - May 2021</span>
+            </div>
+          </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
@@ -386,6 +432,9 @@
           <h3 class="mb-0">Software</h3>
           <div class="subheading mb-0">Programming Languages &amp; Tools</div>
           <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-go"></i>
+            </li>
             <li class="list-inline-item">
               <i class="devicons devicons-java"></i>
             </li>
